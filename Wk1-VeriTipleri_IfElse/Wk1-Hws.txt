@@ -1,0 +1,12 @@
+AcunMedyaAkademiq - Net&ReactFullStack – Hafta1 Ödev
+
+1) Sayının Pozitif, Negatif veya Sıfır Olduğunu Belirleme (if-else)
+2) Gün İsmi Belirleme (switch-case)
+3) Basit Hesap Makinesi (switch-case)
+4) Üç Sayının En Büyüğünü Bulma (if-else)
+5) Şifre Gücünü Kontrol Etme (if-else)
+	-Amaç: Kullanıcının girdiği şifrenin güçlü olup olmadığını kontrol eden program yaz.
+	-Koşullar:
+		-Şifre en az 8 karakter uzunluğunda olmalı.
+		-Şifre içinde @, #, $, % gibi özel karakterler içermeli.
+		-Şifre en az 1 büyük harf içermeli.
