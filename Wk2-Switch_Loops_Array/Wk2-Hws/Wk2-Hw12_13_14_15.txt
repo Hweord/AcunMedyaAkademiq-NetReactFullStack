@@ -1,0 +1,42 @@
+12- Metot (Fonksiyon) Nedir?
+
+Metot, sözlük anlamıyla "Bir amaca ulaşmak veya bir problemi çözmek için izlenen sistematik yol ya da yöntem." olarak tanımlanır. 
+Yazılım geliştirme bağlamında, metot, belirli bir işlevi yerine getiren, girdi parametreleri (argümanları) alarak ve verilerle işlem yaparak belirli bir sonucu döndüren yapılar olarak tanımlanabilir. 
+Aynı zamanda, bu yapılar fonksiyon olarak da adlandırılır.
+
+Temel bir metot yapısı aşağıda gösterilmektedir.
+
+[erişim belirteci] [geri dönüş değeri] [metot ismi] ([alınan parametreler])
+{
+    // Metot içi işlemler
+}
+
+Metot, temelde girdi olarak alınan verileri işleyerek bir çıktı üretir. Bu işlem, program ve kodların daha optimize hale gelmesini sağlar ve hata yönetimini kolaylaştırır. 
+Metotun kullanımı, yazılımın modülerliğini artırır ve kodun yeniden kullanılabilirliğini sağlar Aynı zamanda, gereksiz kod tekrarlarını ortadan kaldırarak, programın bakımını ve güncellenmesini kolaylaştırır. 
+Örneğin, belirli sayılar üzerinde aynı işlemin farklı yerlerde tekrarlanması gerektiğinde ve bu işlem uzun kodlardan oluşuyorsa, her seferinde aynı kodları yazmak yerine ilgili metot çağrılarak gerekli parametreler verilerek sonuç elde edilebilir. 
+
+"Erişim belirteci" bölümüne, programın hangi bölümlerinden kullanılabileceği yazılır. Kullanılabilecek değerlerin başında "public", "private", "protected" yer alır. 
+Yazılmaması durumunda, varsayılan olarak "private" kullanılır. 
+Public, programın tümü üzerinden ulaşılabilecek erişim belirtecidir. Private, yalnızca tanımlandığı sınıf (class) tarafından ulaşılabilecek erişim belirtecidir. Protected, metotun yalnızca tanımlandığı sınıf ve bu sınıftan türeyen alt sınıflar tarafından erişilebildiği erişim belirtecidir.
+
+Eğer kullanılan metot, programın geri kalanında kullanmak için geriye bir değer döndürmesi gerekiyorsa, döndürülecek olan değer türü kullanılacak metot bloğunun "geri dönüş değeri" kısmına yazılır. 
+İşlemler tamamlandıktan sonra, geri döndürülmesi gereken değer "return" ile ana program bloğuna döndürülebilir. 
+Bir değer döndürülmesi gerekmiyorsa "void" kullanılır. Bu metotun geriye bir değer döndürmeyeceğini belirtir.
+
+Parametre, metot çağrılırken gönderilen değerdir.
+Kullanılacak olan parametre alıcı bloğun "alınan parametre" bölümüne yazılır. 
+Gönderici blokta "metot ismi(gönderilen parametre)" şeklinde kullanılır. 
+Tanımlanan değişken adı, programın devamında da kullanılabilir.
+
+Örnek aşağıda yer almaktadır.
+
+static void Main(string[] args)
+{
+    int toplam = Topla(3, 4);
+    Console.WriteLine("Toplam: " + toplam);
+}
+
+static int Topla(int sayi1, int sayi2)
+{
+    return sayi1 + sayi2;
+}
