@@ -1,0 +1,30 @@
+1) Employee adında bir sınıf oluşturun.
+	-Bu sınıftan türeyen (Inheritance) Manager ve Developer sınıflarını oluşturun.
+	-Employee sınıfında şu özellikler bulunmalıdır:
+		--Id,Name,Salary,Department 
+	-Manager sınıfında şu ek özellikler bulunmalıdır:
+		--TeamSize
+	-Developer sınıfında şu ek özellikler bulunmalıdır:
+		--About
+	-Her bir alt sınıf kendi maaş hesaplama metodunu (CalculateBonus()) içermelidir. (Bu metot Employee sınıfında olmalıdır onu kalıtım alan sınıflar tarafından override edilmelidir. Virtual metot kullanınız.):
+		--Yöneticiler maaşlarının %20’sini prim olarak almalıdır.
+		--Geliştiriciler maaşlarının %10’unu prim olarak almalıdır.
+
+
+
+2) BankAccount adında bir sınıf oluşturunuz.
+	-AccountHolder, Balance gibi temel bilgileri içermelidir.
+	-CalculateInterest() adında bir metot tanımlayınız, ancak burada içeriği olmayacak override edilecek. (Virtual metot kullanınız).
+	-Bu sınıftan SavingsAccount ve CheckingAccount sınıflarını türetiniz.
+	-SavingsAccount için:
+		--CalculateInterest() metodunu override ediniz ve bakiyenin %5’ini faiz olarak hesaplayınız.
+	-CheckingAccount için:
+		--CalculateInterest() metodunu override ediniz ve "Checking accounts do not earn interest." mesajı veriniz.
+	-Ana sınıfta (Program.cs) nesneler oluşturunuz ve metotları çalıştırınız.
+	-Not: Bu ödev polymorfizm örneğine göre yapılmalıdır.
+
+
+
+3) Abstract class nedir? Interface nedir?
+4) Abstract class ile interface arasındaki farklar nelerdir?
+5) Abstract class ve interface ile 2’şer örnek yapınız.
