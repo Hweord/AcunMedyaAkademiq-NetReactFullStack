@@ -25,6 +25,6 @@
 
 
 
-3) Abstract class nedir? Interface nedir?
-4) Abstract class ile interface arasındaki farklar nelerdir?
-5) Abstract class ve interface ile 2’şer örnek yapınız.
+3) Abstract Class nedir? Interface nedir?
+4) Abstract Class ile Interface arasındaki farklar nelerdir?
+5) Abstract Class ve Interface ile 2’şer örnek yapınız.
