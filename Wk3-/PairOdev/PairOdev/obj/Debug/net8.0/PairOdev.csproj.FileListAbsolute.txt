@@ -1,0 +1,14 @@
+C:\Users\YAKUP\source\repos\PairOdev\PairOdev\bin\Debug\net8.0\PairOdev.exe
+C:\Users\YAKUP\source\repos\PairOdev\PairOdev\bin\Debug\net8.0\PairOdev.deps.json
+C:\Users\YAKUP\source\repos\PairOdev\PairOdev\bin\Debug\net8.0\PairOdev.runtimeconfig.json
+C:\Users\YAKUP\source\repos\PairOdev\PairOdev\bin\Debug\net8.0\PairOdev.dll
+C:\Users\YAKUP\source\repos\PairOdev\PairOdev\bin\Debug\net8.0\PairOdev.pdb
+C:\Users\YAKUP\source\repos\PairOdev\PairOdev\obj\Debug\net8.0\PairOdev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YAKUP\source\repos\PairOdev\PairOdev\obj\Debug\net8.0\PairOdev.AssemblyInfoInputs.cache
+C:\Users\YAKUP\source\repos\PairOdev\PairOdev\obj\Debug\net8.0\PairOdev.AssemblyInfo.cs
+C:\Users\YAKUP\source\repos\PairOdev\PairOdev\obj\Debug\net8.0\PairOdev.csproj.CoreCompileInputs.cache
+C:\Users\YAKUP\source\repos\PairOdev\PairOdev\obj\Debug\net8.0\PairOdev.dll
+C:\Users\YAKUP\source\repos\PairOdev\PairOdev\obj\Debug\net8.0\refint\PairOdev.dll
+C:\Users\YAKUP\source\repos\PairOdev\PairOdev\obj\Debug\net8.0\PairOdev.pdb
+C:\Users\YAKUP\source\repos\PairOdev\PairOdev\obj\Debug\net8.0\PairOdev.genruntimeconfig.cache
+C:\Users\YAKUP\source\repos\PairOdev\PairOdev\obj\Debug\net8.0\ref\PairOdev.dll
